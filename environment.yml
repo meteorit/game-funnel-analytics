@@ -1,0 +1,34 @@
+name: rannala_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core scientific python
+  - numpy
+  - pandas
+  - matplotlib
+  - python=3.6
+  - seaborn
+
+  # extensions
+  - autopep8
+
+ # visualization libraries
+  - altair
+  - vega_datasets
+  - vega
+
+  # Jupyter Environment
+  - notebook
+  - ipython
+  - jupyter_contrib_nbextensions
+  - jupyterlab
+  - nb_conda
+
+  # Country ISO codes
+  - pip:
+    - pycountry
+    - nbdime
+
+  # Database
+  - sqlite
